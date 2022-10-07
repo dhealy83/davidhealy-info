@@ -1,4 +1,5 @@
 import React from "react";
+import profileImage from "../assets/profile-image.jpg";
 
 function Navbar({ setCurrentPage }) {
   return (
@@ -53,18 +54,18 @@ function Navbar({ setCurrentPage }) {
                   onClick={() => {
                     setCurrentPage("MyWork");
                   }}
-                  class="nav-link"
+                  class="nav-link active"
                   href="#"
                 >
                   My Work
                 </a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item active">
                 <a
                   onClick={() => {
                     setCurrentPage("Contact");
                   }}
-                  class="nav-link"
+                  class="nav-link active"
                 >
                   Contact Me
                 </a>
@@ -73,6 +74,14 @@ function Navbar({ setCurrentPage }) {
           </div>
         </div>
       </nav>
+      <div class="d-flex position-static flex-grow-0 imageInfo m-2">
+        <img
+          src={profileImage}
+          class="flex-shrink-0 me-3 proPhoto img-thumbnail rounded-circle flex-shrink-0 gx-2"
+          alt="..."
+        />
+        <h3 class="mt-0 flex-grow-1 justify-content-evenly">Skills</h3>
+      </div>
     </div>
   );
 }

@@ -54,7 +54,7 @@ body {
 }
 
 #navbar {
-  position: relative;
+  position: initial;
   background-color: rgb(124, 195, 223);
   z-index: 1;
   background: #ffffff;
@@ -69,7 +69,7 @@ body {
 .imageInfo {
   position: relative;
   background-color: #F8F8F8;
-  margin-top: 85px;
+  margin-top: 0px;
   border-radius: 100px 6px 6px 100px;
   box-shadow: -14px 21px 22px rgba(0, 0, 0, 0.3)  ; 
   -webkit-box-shadow: -14px 21px 22px rgba(0, 0, 0, 0.3)  ; 
@@ -79,14 +79,18 @@ body {
 .proPhoto {
   position: flex;
   justify-content: end;
-  margin-right: 5px;
+  margin-right: 0px;
   margin-left: px;
-  margin-bottom: -3px;
+  margin-bottom: px;
   max-height: 200px;
   max-width: auto;
 background: #F8F8F8; 
 border: solid #BDBDBD 0; 
+}
 
+.icons {
+  position: relative;
+  max-height: 50px;
 }
 
 .card { 
@@ -100,5 +104,6 @@ box-shadow: -14px 21px 22px rgba(0, 0, 0, 0.3)  ;
 }
 
 .renderedData {
-  margin-top: px;
+  position: relative;
 }
+

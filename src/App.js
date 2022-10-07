@@ -4,7 +4,6 @@ import Navbar from "./components/Navbar";
 import Bio from "./components/Bio";
 import Contact from "./components/Contact";
 import { useState } from "react";
-import Image from "./components/Image";
 import MyWork from "./components/MyWork";
 
 function App() {
@@ -22,7 +21,6 @@ function App() {
   return (
     <>
       <Navbar setCurrentPage={setCurrentPage} />
-      <Image />
       <div class="renderedData">{render()}</div>
     </>
   );

@@ -2,7 +2,7 @@ import React from "react";
 
 function Bio() {
   return (
-    <div class="card m-3">
+    <div class="card m-3 bio">
       <div class="card-header">Biography</div>
       <ul class="list-group list-group-flush">
         <li class="list-group-item">
