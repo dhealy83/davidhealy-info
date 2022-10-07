@@ -3,7 +3,7 @@ import profileImage from "../assets/profile-image.jpg";
 
 function Navbar({ setCurrentPage }) {
   return (
-    <div class="fixed-top">
+    <div class="sticky-top">
       <nav
         class="navbar navbar-expand-lg rounded-3 m-1 border border-3"
         id="navbar"

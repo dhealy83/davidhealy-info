@@ -2,7 +2,7 @@ import React from "react";
 
 function Contact() {
   return (
-    <div class="card m-3">
+    <div class="card m-2">
       <div class="card-header">Contact Information</div>
       <ul class="list-group list-group-flush">
         <li class="list-group-item">Phone: 954-461-1684</li>
