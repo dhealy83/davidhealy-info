@@ -3,8 +3,9 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import Bio from "./components/Bio";
 import Contact from "./components/Contact";
-import { useState } from "react";
 import MyWork from "./components/MyWork";
+import { useState } from "react";
+import Footer from "./components/Footer";
 
 function App() {
   // const currentPage = "Bio";
@@ -22,6 +23,7 @@ function App() {
     <>
       <Navbar setCurrentPage={setCurrentPage} />
       <div class="renderedData">{render()}</div>
+      <Footer />
     </>
   );
 }
