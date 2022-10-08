@@ -88,6 +88,18 @@ background: #F8F8F8;
 border: solid #BDBDBD 0; 
 }
 
+.codeWarsBadge {
+  margin-top: auto;
+  margin-bottom: 4px;
+  margin-left: -5em;
+  max-height: 35px;
+  text-align: left;
+}
+
+.infoBadge{
+  text-align: left;
+}
+
 .icons {
   position: relative;
   max-height: 50px;

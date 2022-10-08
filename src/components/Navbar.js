@@ -80,12 +80,16 @@ function Navbar({ setCurrentPage }) {
           class="flex-shrink-0 me-3 proPhoto img-thumbnail rounded-circle flex-shrink-0 gx-2"
           alt="..."
         />
-
-        <img
-          src="https://www.codewars.com/users/dhealy83/badges/micro"
-          class="float-end"
-        ></img>
-        <h3 class="mt-0 flex-grow-1 justify-content-evenly">Skills</h3>
+        <div class="infoBadge row">
+          <h3 class="mt-0 flex-grow-1">
+            David Healy <br></br> Current City: Denver, Co <br></br> Age: 39
+            years old <br></br>
+          </h3>
+          <img
+            src="https://www.codewars.com/users/dhealy83/badges/large"
+            class="codeWarsBadge"
+          ></img>
+        </div>
       </div>
     </div>
   );
