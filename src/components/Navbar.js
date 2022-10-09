@@ -5,7 +5,7 @@ function Navbar({ setCurrentPage }) {
   return (
     <div class="sticky-top">
       <nav
-        class="navbar navbar-expand-lg rounded-3 m-1 border border-3"
+        class="navbar navbar-expand-lg rounded-3 m-2 border border-3"
         id="navbar"
       >
         <div class="container-fluid">
@@ -66,6 +66,7 @@ function Navbar({ setCurrentPage }) {
                     setCurrentPage("Contact");
                   }}
                   class="nav-link active"
+                  href="#"
                 >
                   Contact Me
                 </a>
@@ -74,19 +75,19 @@ function Navbar({ setCurrentPage }) {
           </div>
         </div>
       </nav>
-      <div class="d-flex position-static flex-grow-0 imageInfo m-2">
+      <div class="d-flex position-static flex-grow-0 imageInfo m-2 border border-3">
         <img
           src={profileImage}
           class="flex-shrink-0 me-3 proPhoto img-thumbnail rounded-circle flex-shrink-0 gx-2"
           alt="..."
         />
-        <div class="infoBadge row">
-          <h3 class="mt-0 flex-grow-1">
+        <div class="infoBadge">
+          <p class="mt-0">
             David Healy <br></br> Current City: Denver, Co <br></br> Age: 39
             years old <br></br>
-          </h3>
+          </p>
           <img
-            src="https://www.codewars.com/users/dhealy83/badges/large"
+            src="https://www.codewars.com/users/dhealy83/badges/micro"
             class="codeWarsBadge"
           ></img>
         </div>

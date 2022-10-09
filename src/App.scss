@@ -50,9 +50,9 @@ table {
 
 
 body {
-	background: linear-gradient(-45deg, #004d50, #24deff, #1193fd, #6070ff);
+	background: linear-gradient(-45deg, #009ca1, #24deff, #1193fd, #60b7ff);
 	background-size: 400% 400%;
-	animation: gradient 8s ease infinite;
+	animation: gradient 10s ease infinite;
 	height: 100vh;
 }
 
@@ -75,10 +75,9 @@ body {
   background: #ffffff;
   background: #F8F8F8; 
   border: solid #BDBDBD 0; 
-  /* box-shadow: -14px 21px 22px rgba(0, 0, 0, 0.3)  ; 
+  box-shadow: -14px 21px 22px rgba(0, 0, 0, 0.3)  ; 
   -webkit-box-shadow: -14px 21px 22px rgba(0, 0, 0, 0.3)  ; 
-  -moz-box-shadow: -14px 21px 22px rgba(0, 0, 0, 0.3)  ;  */
-
+  -moz-box-shadow: -14px 21px 22px rgba(0, 0, 0, 0.3)  ; 
 }    
 
 .imageInfo {
@@ -104,15 +103,18 @@ border: solid #BDBDBD 0;
 }
 
 .codeWarsBadge {
-  margin-top: auto;
+  margin-top: 4px;
   margin-bottom: 4px;
-  margin-left: -5em;
-  max-height: 35px;
+  margin-left: -5px;
+  max-width: 100%;
   text-align: left;
 }
 
 .infoBadge{
   text-align: left;
+  position:absolute;
+  bottom: 0;
+  margin-left: 200px;
 }
 
 .icons {
@@ -128,15 +130,41 @@ border: solid #BDBDBD 0;
 box-shadow: -14px 21px 22px rgba(0, 0, 0, 0.3)  ; 
 -webkit-box-shadow: -14px 21px 22px rgba(0, 0, 0, 0.3)  ; 
 -moz-box-shadow: -14px 21px 22px rgba(0, 0, 0, 0.3)  ; 
+
 }
 
 .renderedData {
   position: relative;
 }
 
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  margin-bottom: 5px;
-  width: 100%;}
+.footer-wrap {
+  height: 50px;
+  overflow: hidden;
+  line-height: 50px;
+
+  .footer {
+    top: 0;
+    left: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    animation: marquee 30s linear infinite;
+  }
+
+  .footer2 {
+    animation-delay: 15s;
+  }
+  .icons {
+    padding-left: 10px;
+  }
+}
+
+@keyframes marquee {
+  0% {
+    left: 100%;
+  }
+  100% {
+    left: -100%
+  }
+}
