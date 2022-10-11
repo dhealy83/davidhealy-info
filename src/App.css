@@ -54,6 +54,8 @@ body {
 	background-size: 400% 400%;
 	animation: gradient 10s ease infinite;
 	height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 @keyframes gradient {
@@ -84,6 +86,8 @@ body {
   position: relative;
   background-color: #F8F8F8;
   margin-top: 0px;
+  min-width: 400px;
+  float: right;
   border-radius: 100px 6px 6px 100px;
   box-shadow: -14px 21px 22px rgba(0, 0, 0, 0.3)  ; 
   -webkit-box-shadow: -14px 21px 22px rgba(0, 0, 0, 0.3)  ; 
@@ -127,13 +131,13 @@ border: solid #BDBDBD 0;
 }
 
 .card { 
-  /* position: relative;
-  margin-top: 40px;
+  position: relative;
+  margin-top: 45px;
   background: #F8F8F8; 
 border: solid #BDBDBD 0; 
 box-shadow: -14px 21px 22px rgba(0, 0, 0, 0.3)  ; 
 -webkit-box-shadow: -14px 21px 22px rgba(0, 0, 0, 0.3)  ; 
--moz-box-shadow: -14px 21px 22px rgba(0, 0, 0, 0.3)  ;  */
+-moz-box-shadow: -14px 21px 22px rgba(0, 0, 0, 0.3)  ; 
 
 }
 
@@ -144,14 +148,19 @@ box-shadow: -14px 21px 22px rgba(0, 0, 0, 0.3)  ;
   .footer {
     width: 100%;
     overflow: hidden;
-    position: inherit;
-    bottom: 0;
-    margin-bottom: 5px;
-    margin-top: 5px;
     white-space: nowrap;
+    background-color: #ffffff;
   }
+
+.myWork {
+  margin-bottom: 80px
+}
 
 .myWorkImages {
   max-width: 100%;
 }
 
+.name {
+  margin-bottom: -7px;
+  margin-left: -3px;
+}

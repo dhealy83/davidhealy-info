@@ -10,7 +10,7 @@ import weatherDashboard from "../assets/myWork/weatherDashboard.png";
 
 function MyWork() {
   return (
-    <div class="container rows bg-transparent">
+    <div class="container rows myWork">
       <div class="my-4">
         <img
           src={pourLosers}
@@ -24,14 +24,31 @@ function MyWork() {
             can make. It was a lot of fun figuring out how to use .css and
             bootstrap together.
           </li>
-          <li>
-            <a class="btn btn-secondary btn-sm" href="" role="button">
-              Check out the repository here!
-            </a>
-          </li>
+          <div class="container d-flex col justify-content-between">
+            <li>
+              <a
+                class="btn btn-secondary btn-sm"
+                href="https://dhealy83.github.io/pour-loser-game/"
+                target="_blank"
+                role="button"
+              >
+                Deployed application here
+              </a>
+            </li>
+            <li>
+              <a
+                class="btn btn-secondary btn-sm"
+                href="https://github.com/dhealy83/pour-loser-game"
+                target="_blank"
+                role="button"
+              >
+                Check out the repo here
+              </a>
+            </li>
+          </div>
         </ul>
       </div>
-      <div>
+      <div class="mt-4">
         <img src={fiveCK} class="myWorkImages img-fluid card-header col"></img>
         <ul class="list-group list-group-flush">
           <li class=" m-2">
@@ -39,11 +56,93 @@ function MyWork() {
             You can add and delete recipes. In addition you get a random recipe
             everyday from a recipe api.
           </li>
-          <li>
-            <button type="button" class="btn btn-secondary btn-sm">
-              Check out the repository here!
-            </button>
+          <div class="container d-flex col justify-content-between">
+            <li>
+              <a
+                class="btn btn-secondary btn-sm"
+                href="https://agile-shore-26692.herokuapp.com/"
+                target="_blank"
+                role="button"
+              >
+                Deployed application here
+              </a>
+            </li>
+            <li>
+              <a
+                class="btn btn-secondary btn-sm"
+                href="https://github.com/dhealy83/5-cooks-kitchen"
+                target="_blank"
+                role="button"
+              >
+                Check out the repo here
+              </a>
+            </li>
+          </div>
+        </ul>
+      </div>
+      <div class="mt-4">
+        <img src={jate} class="myWorkImages img-fluid card-header col"></img>
+        <ul class="list-group list-group-flush">
+          <li class=" m-2">
+            This homework assignment was really tough but I worked though it and
+            have a firm understanding of how to make a Progressive Web App.
           </li>
+          <div class="container d-flex col justify-content-between">
+            <li>
+              <a
+                class="btn btn-secondary btn-sm"
+                href="https://pwa-enjoy.herokuapp.com/"
+                target="_blank"
+                role="button"
+              >
+                Deployed application here
+              </a>
+            </li>
+            <li>
+              <a
+                class="btn btn-secondary btn-sm"
+                href="https://github.com/dhealy83/progressive-web-app"
+                target="_blank"
+                role="button"
+              >
+                Check out the repo here
+              </a>
+            </li>
+          </div>
+        </ul>
+      </div>
+      <div class="mt-4">
+        <img
+          src={originalPortfolio}
+          class="myWorkImages img-fluid card-header col"
+        ></img>
+        <ul class="list-group list-group-flush">
+          <li class=" m-2">
+            Well... this was my first portfolio ever. It left a lot of room for
+            me to grow.
+          </li>
+          <div class="container d-flex col justify-content-between">
+            <li>
+              <a
+                class="btn btn-secondary btn-sm"
+                href="https://dhealy83.github.io/week-2-challenge/"
+                target="_blank"
+                role="button"
+              >
+                Deployed application here
+              </a>
+            </li>
+            <li>
+              <a
+                class="btn btn-secondary btn-sm"
+                href="https://github.com/dhealy83/week-2-challenge"
+                target="_blank"
+                role="button"
+              >
+                Check out the repo here
+              </a>
+            </li>
+          </div>
         </ul>
       </div>
     </div>

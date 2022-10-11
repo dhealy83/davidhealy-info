@@ -78,7 +78,7 @@ function Navbar({ setCurrentPage }) {
           </div>
         </div>
       </nav>
-      <div class="d-flex position-static flex-grow-0 imageInfo m-2 border border-3">
+      <div class="d-flex flex-end imageInfo m-2 border border-3">
         <img
           src={profileImage}
           class="flex-shrink-0 me-3 proPhoto img-thumbnail rounded-circle flex-shrink-0 gx-2"
@@ -86,7 +86,8 @@ function Navbar({ setCurrentPage }) {
         />
         <div class="infoBadge">
           <p class="mt-0">
-            David Healy <br></br> Current City: Denver, Co <br></br>
+            <p class="fs-2 name ">David Healy</p> <br></br> Current City:
+            Denver, Co <br></br>
             Born: 05/02/1983 <br></br>
             Birthplace: Port of Spain,<br></br> Trinidad and Tobago <br></br>
             <img src={phoneIcon} class="infoBadgeIcons"></img>
