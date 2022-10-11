@@ -1,5 +1,8 @@
 import React from "react";
 import profileImage from "../assets/profile-image.jpg";
+import phoneIcon from "../assets/phoneIcon.png";
+import linkIcon from "../assets/linkIcon.png";
+import emailIcon from "../assets/emailIcon.png";
 
 function Navbar({ setCurrentPage }) {
   return (
@@ -79,12 +82,45 @@ function Navbar({ setCurrentPage }) {
         <img
           src={profileImage}
           class="flex-shrink-0 me-3 proPhoto img-thumbnail rounded-circle flex-shrink-0 gx-2"
-          alt="..."
+          alt="Black and white photo of David Healy."
         />
         <div class="infoBadge">
           <p class="mt-0">
-            David Healy <br></br> Current City: Denver, Co <br></br> Age: 39
-            years old <br></br>
+            David Healy <br></br> Current City: Denver, Co <br></br>
+            Born: 05/02/1983 <br></br>
+            Birthplace: Port of Spain,<br></br> Trinidad and Tobago <br></br>
+            <img src={phoneIcon} class="infoBadgeIcons"></img>
+            <a href="tel:+19544611684">{" 954-461-1684"}</a>
+            <br></br>
+            <a href="mailto:drtjprdave@gmail.com" target="_blank">
+              <img
+                src={emailIcon}
+                alt="Email adress is drtjprdave@gmail.com"
+                class="infoBadgeIcons"
+              />
+              {"  Mr.Healy.1983@gmail.com "}
+            </a>
+            <br></br>
+            <a
+              href="https://www.linkedin.com/in/david-healy-931583130/"
+              target="_blank"
+            >
+              <img
+                src={linkIcon}
+                alt="Chain link icon."
+                class="infoBadgeIcons"
+              />
+              {" LinkedIn"}
+            </a>
+            <br></br>
+            <a href="https://github.com/dhealy83" target="_blank">
+              <img
+                src={linkIcon}
+                alt="Chain link icon."
+                class="infoBadgeIcons"
+              />
+              {" Github"}
+            </a>
           </p>
           <img
             src="https://www.codewars.com/users/dhealy83/badges/micro"

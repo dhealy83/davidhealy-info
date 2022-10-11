@@ -1,11 +1,11 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./App.scss";
+import "./App.css";
 import Navbar from "./components/Navbar";
 import Bio from "./components/Bio";
 import Contact from "./components/Contact";
 import MyWork from "./components/MyWork";
-import { useState } from "react";
 import Footer from "./components/Footer";
+import { useState } from "react";
 
 function App() {
   // const currentPage = "Bio";
