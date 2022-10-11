@@ -1,4 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
+import emailjs from "@emailjs/browser";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Bio from "./components/Bio";

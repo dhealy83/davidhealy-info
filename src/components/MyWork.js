@@ -145,6 +145,126 @@ function MyWork() {
           </div>
         </ul>
       </div>
+      <div class="mt-4">
+        <img
+          src={regexExplanation}
+          class="myWorkImages img-fluid card-header col"
+        ></img>
+        <ul class="list-group list-group-flush">
+          <li class=" m-2">
+            As much as I didn't enjoy this assignment I did really like the end
+            result. I learned a lot about regex and a great deal about creating
+            a great readme.md. Best to open this file with vscode to see its
+            functionality.
+          </li>
+          <div class="container d-flex col justify-content-between">
+            <li>
+              <a
+                class="btn btn-secondary btn-sm"
+                href="https://gist.github.com/dhealy83"
+                target="_blank"
+                role="button"
+              >
+                Check out the gist here
+              </a>
+            </li>
+          </div>
+        </ul>
+      </div>
+      <div class="mt-4">
+        <img
+          src={passwordGen}
+          class="myWorkImages img-fluid card-header col"
+        ></img>
+        <ul class="list-group list-group-flush">
+          <li class=" m-2">
+            One of the first assignments I finished. This was my real first dive
+            into algorithms. It was a lot of fun.
+          </li>
+          <div class="container d-flex col justify-content-between">
+            <li>
+              <a
+                class="btn btn-secondary btn-sm"
+                href="https://dhealy83.github.io/Challenge-3/"
+                target="_blank"
+                role="button"
+              >
+                Deployed application here
+              </a>
+            </li>
+            <li>
+              <a
+                class="btn btn-secondary btn-sm"
+                href="https://github.com/dhealy83/Challenge-3"
+                target="_blank"
+                role="button"
+              >
+                Check out the repo here
+              </a>
+            </li>
+          </div>
+        </ul>
+      </div>
+      <div class="mt-4">
+        <img
+          src={weatherDashboard}
+          class="myWorkImages img-fluid card-header col"
+        ></img>
+        <ul class="list-group list-group-flush">
+          <li class=" m-2">
+            APIs can gbe really tough. Especially at the beginning of this
+            class. this one help me iron out my ability to use local storage and
+            APIs
+          </li>
+          <div class="container d-flex col justify-content-between">
+            <li>
+              <a
+                class="btn btn-secondary btn-sm"
+                href="https://dhealy83.github.io/weather-dashboard/"
+                target="_blank"
+                role="button"
+              >
+                Deployed application here
+              </a>
+            </li>
+            <li>
+              <a
+                class="btn btn-secondary btn-sm"
+                href="https://github.com/dhealy83/weather-dashboard"
+                target="_blank"
+                role="button"
+              >
+                Check out the repo here
+              </a>
+            </li>
+          </div>
+        </ul>
+      </div>
+      <div class="mt-4">
+        <img
+          src={socialMediaApi}
+          class="myWorkImages img-fluid card-header col"
+        ></img>
+        <ul class="list-group list-group-flush">
+          <li class=" m-2">
+            This was a great project to help me understand the inner working of
+            social media apps like Facebook. This one was a big help for growing
+            my database knowledge.
+          </li>
+          <div class="container d-flex col justify-content-between">
+            <li>
+              <a
+                class="btn btn-secondary btn-sm"
+                href="https://github.com/dhealy83/social-network-api"
+                target="_blank"
+                role="button"
+              >
+                Check out the repo here
+              </a>
+            </li>
+          </div>
+        </ul>
+      </div>
     </div>
   );
 }

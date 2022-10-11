@@ -1,18 +1,58 @@
 import React from "react";
+import emailjs from "@emailjs/browser";
 
 function Contact() {
+  var templateParams = {
+    name: "James",
+    notes: "Check this out!",
+  };
+
+  emailjs.send("service_0n241qb", "service_0n241qb", templateParams).then(
+    function (response) {
+      console.log("SUCCESS!", response.status, response.text);
+    },
+    function (error) {
+      console.log("FAILED...", error);
+    }
+  );
+
   return (
-    <div class="card m-2 border border-3">
-      <div class="card-header">Contact Information</div>
-      <ul class="list-group list-group-flush">
-        <li class="list-group-item">Phone: 954-461-1684</li>
-        <li class="list-group-item">Email: mr.healy1983@gmail.com</li>
-        <li class="list-group-item">
-          LinkedIn: https://www.linkedin.com/in/david-healy-931583130/
-        </li>
-        <li class="list-group-item">GitHub: https://github.com/dhealy83</li>
-      </ul>
-    </div>
+    <form class="container contactForm">
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label"></label>
+        <input
+          type="text"
+          name="contact_number"
+          class="form-control"
+          id="userName"
+          aria-describedby="emailHelp"
+          placeholder="Name"
+        />
+      </div>
+      <div class="mb-3">
+        <input
+          type="email"
+          name="user_email"
+          class="form-control"
+          id="userEmail"
+          aria-describedby="emailHelp"
+          placeholder="Email address"
+        />
+      </div>
+      <div class="mb-3">
+        <textarea
+          type="text"
+          class="form-control"
+          id="messageArea"
+          placeholder="Message text"
+          row="3"
+        />
+      </div>
+      <div class="mb-3 form-check"></div>
+      <button type="submit" value="send" class="btn btn-primary">
+        Submit
+      </button>
+    </form>
   );
 }
 

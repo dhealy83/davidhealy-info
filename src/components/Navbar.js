@@ -78,7 +78,7 @@ function Navbar({ setCurrentPage }) {
           </div>
         </div>
       </nav>
-      <div class="d-flex flex-end imageInfo m-2 border border-3">
+      <div class="d-flex flex-end imageInfo m-2 border border-3 col-sm-2">
         <img
           src={profileImage}
           class="flex-shrink-0 me-3 proPhoto img-thumbnail rounded-circle flex-shrink-0 gx-2"
@@ -91,12 +91,18 @@ function Navbar({ setCurrentPage }) {
             Born: 05/02/1983 <br></br>
             Birthplace: Port of Spain,<br></br> Trinidad and Tobago <br></br>
             <img src={phoneIcon} class="infoBadgeIcons"></img>
-            <a href="tel:+19544611684">{" 954-461-1684"}</a>
+            <a href="tel:+19544611684" class="link-dark">
+              {" 954-461-1684"}
+            </a>
             <br></br>
-            <a href="mailto:drtjprdave@gmail.com" target="_blank">
+            <a
+              href="mailto:drtjprdave@gmail.com"
+              target="_blank"
+              class="link-dark"
+            >
               <img
                 src={emailIcon}
-                alt="Email adress is drtjprdave@gmail.com"
+                alt="Email address is drtjprdave@gmail.com"
                 class="infoBadgeIcons"
               />
               {"  Mr.Healy.1983@gmail.com "}
@@ -105,6 +111,7 @@ function Navbar({ setCurrentPage }) {
             <a
               href="https://www.linkedin.com/in/david-healy-931583130/"
               target="_blank"
+              class="link-dark"
             >
               <img
                 src={linkIcon}
@@ -114,7 +121,11 @@ function Navbar({ setCurrentPage }) {
               {" LinkedIn"}
             </a>
             <br></br>
-            <a href="https://github.com/dhealy83" target="_blank">
+            <a
+              href="https://github.com/dhealy83"
+              target="_blank"
+              class="link-dark"
+            >
               <img
                 src={linkIcon}
                 alt="Chain link icon."
