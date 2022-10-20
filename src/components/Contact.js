@@ -26,9 +26,9 @@ export const Contact = () => {
   };
 
   return (
-    <div class="container d-flex  justify-content-center">
+    <div className="container d-flex  justify-content-center">
       <Card className="w-75 ">
-        <div class="card-header"> Send me an email</div>
+        <div className="card-header"> Send me an email</div>
         <form className="contactForm" ref={form} onSubmit={sendEmail}>
           <div className="m-2">
             <label for="exampleInputEmail1" className="form-label"></label>

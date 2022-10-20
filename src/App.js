@@ -1,9 +1,11 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import Navbar from "./components/Navbar";
+import HomePage from "./components/HomePage";
 import Bio from "./components/Bio";
 import Contact from "./components/Contact";
 import MyWork from "./components/MyWork";
+import Resume from "./components/Resume/Resume";
 import Footer from "./components/Footer/Footer";
 import { useState } from "react";
 
@@ -17,6 +19,8 @@ function App() {
       return <Contact />;
     } else if (currentPage === "MyWork") {
       return <MyWork />;
+    } else if (currentPage === "HomePage") {
+      return <HomePage />;
     }
   }
   return (
