@@ -21,6 +21,8 @@ function App() {
       return <MyWork />;
     } else if (currentPage === "HomePage") {
       return <HomePage />;
+    } else if (currentPage === "Resume") {
+      return <Resume />;
     }
   }
   return (
