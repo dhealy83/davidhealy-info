@@ -13,7 +13,7 @@ export const Contact = () => {
         "service_0n241qb",
         "template_xo5j6n1",
         form.current,
-        "K6Do4-G7AjdaiLgmd"
+        "Rb2SDJmg3mZ3f_HgG"
       )
       .then(
         (result) => {
@@ -23,20 +23,21 @@ export const Contact = () => {
           console.log(error.text);
         }
       );
+    e.target.reset();
   };
 
   return (
-    <div className="container d-flex justify-content-center">
+    <div className="container d-flex  justify-content-center">
       <Card className="w-75 ">
         <div className="card-header"> Send me an email</div>
         <form className="contactForm" ref={form} onSubmit={sendEmail}>
           <div className="m-2">
-            <label for="exampleInputEmail1" className="form-label"></label>
+            <label className="form-label"></label>
             <input
               type="text"
-              name="contact_number"
+              name="from_name"
               className="form-control"
-              id="userName"
+              id="from_name"
               aria-describedby="emailHelp"
               placeholder="Name"
             />
@@ -46,13 +47,14 @@ export const Contact = () => {
               type="email"
               name="user_email"
               className="form-control"
-              id="userEmail"
+              id="user_email"
               aria-describedby="emailHelp"
               placeholder="Email address"
             />
           </div>
           <div className="m-2">
             <textarea
+              name="message"
               type="text"
               className="form-control"
               id="messageArea"
@@ -61,7 +63,7 @@ export const Contact = () => {
             />
           </div>
           <div className="m-2 form-check"></div>
-          <button type="submit" value="send" className="btn btn-primary m-2">
+          <button type="submit" value="Send" className="btn btn-primary m-2">
             Submit
           </button>
         </form>
