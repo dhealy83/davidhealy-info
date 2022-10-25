@@ -1,0 +1,167 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+body {
+	background: linear-gradient(-45deg, #009ca1, #24deff, #1193fd, #60b7ff);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+	height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+#navbar {
+  position: initial;
+  background-color: rgb(124, 195, 223);
+  z-index: 1;
+  background: #ffffff;
+  background: #F8F8F8; 
+  border: solid #BDBDBD 0; 
+  box-shadow: -14px 21px 22px rgba(0, 0, 0, 0.3)  ; 
+  -webkit-box-shadow: -14px 21px 22px rgba(0, 0, 0, 0.3)  ; 
+  -moz-box-shadow: -14px 21px 22px rgba(0, 0, 0, 0.3)  ; 
+}    
+
+.imageInfo {
+  position: relative;
+  background-color: #F8F8F8;
+  margin-top: 0px;
+  min-width: 400px;
+  float: right;
+  border-radius: 100px 6px 6px 100px;
+  box-shadow: -14px 21px 22px rgba(0, 0, 0, 0.3)  ; 
+  -webkit-box-shadow: -14px 21px 22px rgba(0, 0, 0, 0.3)  ; 
+  -moz-box-shadow: -14px 21px 22px rgba(0, 0, 0, 0.3)  ; 
+
+}
+.proPhoto {
+  position: flex;
+  justify-content: end;
+  margin-right: 0px;
+  margin-left: px;
+  margin-bottom: px;
+  max-height: 200px;
+  max-width: auto;
+background: #F8F8F8; 
+border: solid #BDBDBD 0; 
+}
+
+.codeWarsBadge {
+  margin-top: 4px;
+  margin-bottom: 4px;
+  margin-left: -5px;
+  max-width: 100%;
+  text-align: left;
+}
+
+.infoBadge{
+  text-align: left;
+  position:absolute;
+  bottom: 0;
+  margin-left: 200px;
+}
+
+.infoBadgeIcons {
+  max-width: 11px;
+}
+
+.icons {
+  position: relative;
+  max-height: 50px;
+}
+
+.card { 
+  position: relative;
+  margin-top: 18px;
+  margin-bottom: 85px;
+  background: #F8F8F8; 
+border: solid #BDBDBD 0; 
+box-shadow: -14px 21px 22px rgba(0, 0, 0, 0.3)  ; 
+-webkit-box-shadow: -14px 21px 22px rgba(0, 0, 0, 0.3)  ; 
+-moz-box-shadow: -14px 21px 22px rgba(0, 0, 0, 0.3)  ; 
+
+}
+
+.renderedData {
+  position: relative;
+}
+
+  .footer {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    background-color: #ffffff;
+  }
+
+.myWork {
+  margin-bottom: 80px
+}
+
+.myWorkImages {
+  max-width: 100%;
+}
+
+.name {
+  margin-bottom: -7px;
+  margin-left: -3px;
+}

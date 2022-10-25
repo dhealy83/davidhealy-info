@@ -1,0 +1,11 @@
+.scroll {
+    display: inline-block;
+    overflow: auto;
+    white-space: nowrap;
+    justify-content: space-between;
+}
+
+::-webkit-scrollbar {
+    display: none;
+
+}
