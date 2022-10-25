@@ -1,8 +1,8 @@
 {
   "name": "davhidhealy-info",
-  "homepage": "https://dhealy83.github.io/davidhealy.info/",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://dhealy83.github.io/davidhealy.info/",
   "dependencies": {
     "@emailjs/browser": "^3.7.0",
     "@testing-library/jest-dom": "^5.16.5",
