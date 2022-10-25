@@ -31,7 +31,7 @@ export const Contact = () => {
         <div className="card-header"> Send me an email</div>
         <form className="contactForm" ref={form} onSubmit={sendEmail}>
           <div className="m-2">
-            <label for="exampleInputEmail1" className="form-label"></label>
+            <label htmlFor="exampleInputEmail1" className="form-label"></label>
             <input
               type="text"
               name="contact_number"
