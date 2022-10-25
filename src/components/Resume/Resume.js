@@ -24,9 +24,9 @@ const Resume = () => {
       <nav>
         <button onClick={goToPrevPage}>Prev</button>
         <button onClick={goToNextPage}>Next</button>
-        <p>
+        <div>
           Page {pageNumber} of {numPages}
-        </p>
+        </div>
       </nav>
 
       <Document file="./1.pdf" onLoadSuccess={onDocumentLoadSuccess}>

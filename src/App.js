@@ -28,7 +28,7 @@ function App() {
   return (
     <>
       <Navbar setCurrentPage={setCurrentPage} />
-      <div class="renderedData ">{render()}</div>
+      <div className="renderedData ">{render()}</div>
       <Footer />
     </>
   );
