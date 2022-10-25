@@ -94,7 +94,7 @@ function Navbar({ setCurrentPage }) {
           alt="Black and white photo of David Healy."
         />
         <div className="infoBadge">
-          <p className="mt-0">
+          <div className="mt-0">
             <p className="fs-2 name ">David Healy</p> <br></br> Current City:
             Denver, Co <br></br>
             Born: 05/02/1983 <br></br>
@@ -142,7 +142,7 @@ function Navbar({ setCurrentPage }) {
               />
               {" Github"}
             </a>
-          </p>
+          </div>
           <img
             src="https://www.codewars.com/users/dhealy83/badges/micro"
             className="codeWarsBadge"
