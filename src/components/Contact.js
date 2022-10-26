@@ -13,7 +13,7 @@ export const Contact = () => {
         "service_0n241qb",
         "template_xo5j6n1",
         form.current,
-        "K6Do4-G7AjdaiLgmd"
+        "Rb2SDJmg3mZ3f_HgG"
       )
       .then(
         (result) => {
@@ -23,6 +23,7 @@ export const Contact = () => {
           console.log(error.text);
         }
       );
+    e.target.reset();
   };
 
   return (
@@ -36,7 +37,7 @@ export const Contact = () => {
               type="text"
               name="contact_number"
               className="form-control"
-              id="userName"
+              id="user_name"
               aria-describedby="emailHelp"
               placeholder="Name"
             />
@@ -54,6 +55,7 @@ export const Contact = () => {
           <div className="m-2">
             <textarea
               type="text"
+              name="message"
               className="form-control"
               id="messageArea"
               placeholder="Message text"
