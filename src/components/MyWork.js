@@ -15,6 +15,7 @@ function MyWork() {
         <img
           src={pourLosers}
           className="myWorkImages img-fluid card-header col"
+          alt="Pour loser web app."
         ></img>
         <ul className="list-group list-group-flush">
           <li className=" m-2">
@@ -30,6 +31,7 @@ function MyWork() {
                 className="btn btn-secondary btn-sm"
                 href="https://dhealy83.github.io/pour-loser-game/"
                 target="_blank"
+                rel="noreferrer"
                 role="button"
               >
                 Deployed application here
@@ -40,6 +42,7 @@ function MyWork() {
                 className="btn btn-secondary btn-sm"
                 href="https://github.com/dhealy83/pour-loser-game"
                 target="_blank"
+                rel="noreferrer"
                 role="button"
               >
                 Check out the repo here
@@ -52,6 +55,7 @@ function MyWork() {
         <img
           src={fiveCK}
           className="myWorkImages img-fluid card-header col"
+          alt="Five Cooks Kitchen cook book creator."
         ></img>
         <ul className="list-group list-group-flush">
           <li className=" m-2">
@@ -65,6 +69,7 @@ function MyWork() {
                 className="btn btn-secondary btn-sm"
                 href="https://agile-shore-26692.herokuapp.com/"
                 target="_blank"
+                rel="noreferrer"
                 role="button"
               >
                 Deployed application here
@@ -75,6 +80,7 @@ function MyWork() {
                 className="btn btn-secondary btn-sm"
                 href="https://github.com/dhealy83/5-cooks-kitchen"
                 target="_blank"
+                rel="noreferrer"
                 role="button"
               >
                 Check out the repo here
@@ -87,6 +93,7 @@ function MyWork() {
         <img
           src={jate}
           className="myWorkImages img-fluid card-header col"
+          alt="Just another text editor PWA."
         ></img>
         <ul className="list-group list-group-flush">
           <li className=" m-2">
@@ -99,6 +106,7 @@ function MyWork() {
                 className="btn btn-secondary btn-sm"
                 href="https://pwa-enjoy.herokuapp.com/"
                 target="_blank"
+                rel="noreferrer"
                 role="button"
               >
                 Deployed application here
@@ -109,6 +117,7 @@ function MyWork() {
                 className="btn btn-secondary btn-sm"
                 href="https://github.com/dhealy83/progressive-web-app"
                 target="_blank"
+                rel="noreferrer"
                 role="button"
               >
                 Check out the repo here
@@ -121,6 +130,7 @@ function MyWork() {
         <img
           src={originalPortfolio}
           className="myWorkImages img-fluid card-header col"
+          alt="My first web portfolio."
         ></img>
         <ul className="list-group list-group-flush">
           <li className=" m-2">
@@ -133,6 +143,7 @@ function MyWork() {
                 className="btn btn-secondary btn-sm"
                 href="https://dhealy83.github.io/week-2-challenge/"
                 target="_blank"
+                rel="noreferrer"
                 role="button"
               >
                 Deployed application here
@@ -143,6 +154,7 @@ function MyWork() {
                 className="btn btn-secondary btn-sm"
                 href="https://github.com/dhealy83/week-2-challenge"
                 target="_blank"
+                rel="noreferrer"
                 role="button"
               >
                 Check out the repo here
@@ -155,6 +167,7 @@ function MyWork() {
         <img
           src={regexExplanation}
           className="myWorkImages img-fluid card-header col"
+          alt="An explication on regular expressions."
         ></img>
         <ul className="list-group list-group-flush">
           <li className=" m-2">
@@ -169,6 +182,7 @@ function MyWork() {
                 className="btn btn-secondary btn-sm"
                 href="https://gist.github.com/dhealy83"
                 target="_blank"
+                rel="noreferrer"
                 role="button"
               >
                 Check out the gist here
@@ -181,6 +195,7 @@ function MyWork() {
         <img
           src={passwordGen}
           className="myWorkImages img-fluid card-header col"
+          alt="Password generator web app."
         ></img>
         <ul className="list-group list-group-flush">
           <li className=" m-2">
@@ -193,6 +208,7 @@ function MyWork() {
                 className="btn btn-secondary btn-sm"
                 href="https://dhealy83.github.io/Challenge-3/"
                 target="_blank"
+                rel="noreferrer"
                 role="button"
               >
                 Deployed application here
@@ -203,6 +219,7 @@ function MyWork() {
                 className="btn btn-secondary btn-sm"
                 href="https://github.com/dhealy83/Challenge-3"
                 target="_blank"
+                rel="noreferrer"
                 role="button"
               >
                 Check out the repo here
@@ -215,6 +232,7 @@ function MyWork() {
         <img
           src={weatherDashboard}
           className="myWorkImages img-fluid card-header col"
+          alt="Weather Dashboard."
         ></img>
         <ul className="list-group list-group-flush">
           <li className=" m-2">
@@ -228,6 +246,7 @@ function MyWork() {
                 className="btn btn-secondary btn-sm"
                 href="https://dhealy83.github.io/weather-dashboard/"
                 target="_blank"
+                rel="noreferrer"
                 role="button"
               >
                 Deployed application here
@@ -238,6 +257,7 @@ function MyWork() {
                 className="btn btn-secondary btn-sm"
                 href="https://github.com/dhealy83/weather-dashboard"
                 target="_blank"
+                rel="noreferrer"
                 role="button"
               >
                 Check out the repo here
@@ -250,6 +270,7 @@ function MyWork() {
         <img
           src={socialMediaApi}
           className="myWorkImages img-fluid card-header col"
+          alt="Social media back end."
         ></img>
         <ul className="list-group list-group-flush">
           <li className=" m-2">
@@ -263,6 +284,7 @@ function MyWork() {
                 className="btn btn-secondary btn-sm"
                 href="https://github.com/dhealy83/social-network-api"
                 target="_blank"
+                rel="noreferrer"
                 role="button"
               >
                 Check out the repo here
