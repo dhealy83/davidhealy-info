@@ -6,10 +6,12 @@ import huntingPhoto from "../../assets/carousel/huntingPhoto.jpg";
 import smokedRibEye from "../../assets/carousel/smokedRibEye.jpg";
 import bikePark from "../../assets/carousel/bikePark.jpg";
 
+import "./Bio.css";
+
 function Bio() {
   return (
     <>
-      <div className="m-2 h-75 justify-content-center">
+      <div className="bio m-2 h-75 justify-content-center mb-5">
         <Card className="d-flex border border-3">
           <Card.Header className="fs-3">Biography and Fun Facts</Card.Header>
           <ListGroup variant="flush">
