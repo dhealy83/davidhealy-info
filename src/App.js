@@ -2,7 +2,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import HomePage from "./components/HomePage";
-import Bio from "./components/Bio";
+import Bio from "./components/Bio/Bio";
 import Contact from "./components/Contact";
 import MyWork from "./components/MyWork";
 import Resume from "./components/Resume/Resume";

@@ -133,6 +133,7 @@ border: solid #BDBDBD 0;
 .card { 
   position: relative;
   margin-top: 45px;
+  margin-bottom: 85px;
   background: #F8F8F8; 
 border: solid #BDBDBD 0; 
 box-shadow: -14px 21px 22px rgba(0, 0, 0, 0.3)  ; 
