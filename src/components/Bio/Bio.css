@@ -1,4 +1,7 @@
 .bio {
-    max-height: 600px;
-    margin-bottom: 100px;
+    margin: auto;
+    margin-bottom: 55px;
+    max-width: 1000px;
+    width: 97% !important;
+    height: auto !important;
 }

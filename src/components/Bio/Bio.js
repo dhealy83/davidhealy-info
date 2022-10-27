@@ -11,8 +11,8 @@ import "./Bio.css";
 function Bio() {
   return (
     <>
-      <div className="bio mx-2 h-75 justify-content-center">
-        <Card className="d-flex border border-3">
+      <div className="bio ">
+        <Card className="d-flex justify-content-center border border-3">
           <Card.Header className="fs-3">Biography and Fun Facts</Card.Header>
           <ListGroup variant="flush">
             <ListGroup.Item>

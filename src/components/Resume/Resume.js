@@ -29,11 +29,7 @@ const Resume = () => {
     <>
       <div>
         <div>
-          <Document
-            file={MyResume}
-            style={{ backgroundColor: "transparent" }}
-            onLoadSuccess={onDocumentLoadSuccess}
-          >
+          <Document file={MyResume} onLoadSuccess={onDocumentLoadSuccess}>
             <Page pageNumber={pageNumber} />
           </Document>
         </div>
