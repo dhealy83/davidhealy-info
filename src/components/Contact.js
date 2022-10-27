@@ -32,12 +32,12 @@ export const Contact = () => {
         <div className="card-header"> Send me an email</div>
         <form className="contactForm" ref={form} onSubmit={sendEmail}>
           <div className="m-2">
-            <label className="form-label"></label>
+            <label htmlFor="exampleInputEmail1" className="form-label"></label>
             <input
               type="text"
-              name="from_name"
+              name="contact_number"
               className="form-control"
-              id="from_name"
+              id="user_name"
               aria-describedby="emailHelp"
               placeholder="Name"
             />
@@ -47,15 +47,15 @@ export const Contact = () => {
               type="email"
               name="user_email"
               className="form-control"
-              id="user_email"
+              id="userEmail"
               aria-describedby="emailHelp"
               placeholder="Email address"
             />
           </div>
           <div className="m-2">
             <textarea
-              name="message"
               type="text"
+              name="message"
               className="form-control"
               id="messageArea"
               placeholder="Message text"
@@ -63,7 +63,7 @@ export const Contact = () => {
             />
           </div>
           <div className="m-2 form-check"></div>
-          <button type="submit" value="Send" className="btn btn-primary m-2">
+          <button type="submit" value="send" className="btn btn-primary m-2">
             Submit
           </button>
         </form>

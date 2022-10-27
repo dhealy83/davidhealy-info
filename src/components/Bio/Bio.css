@@ -1,4 +1,7 @@
-.carousel {
-    display: flex;
-    min-width: 50%;
+.bio {
+    margin: auto;
+    margin-bottom: 55px;
+    max-width: 1000px;
+    width: 97% !important;
+    height: auto !important;
 }

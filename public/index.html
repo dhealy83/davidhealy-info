@@ -10,45 +10,12 @@
       content="David Healy's website and portfolio."
     />
     <title>David Healy</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="https://getbootstrap.com/docs/5.2/assets/css/docs.css"
-      rel="stylesheet"
-    />
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
     <script
-      type="text/javascript"
+      type="text/jsx"
       src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
     ></script>
-    <script type="text/javascript">
-      (function () {
-        // https://dashboard.emailjs.com/admin/account
-        emailjs.init("K6Do4-G7AjdaiLgmd");
-      })();
-    </script>
-    <script type="text/javascript">
-      window.onload = function () {
-        document
-          .getElementById("contact-form")
-          .addEventListener("submit", function (event) {
-            event.preventDefault();
-            // generate a five digit number for the contact_number variable
-            this.contact_number.value = (Math.random() * 100000) | 0;
-            // these IDs from the previous steps
-            emailjs.sendForm("contact_service", "contact_form", this).then(
-              function () {
-                console.log("SUCCESS!");
-              },
-              function (error) {
-                console.log("FAILED...", error);
-              }
-            );
-          });
-      };
-    </script>
   </head>
   <body>
     <div id="root"></div>
@@ -58,10 +25,10 @@
       integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
       crossorigin="anonymous"
     ></script>
-    <script
+    <!-- <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
-    ></script>
+    ></script> -->
   </body>
 </html>

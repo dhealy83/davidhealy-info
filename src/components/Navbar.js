@@ -3,6 +3,7 @@ import profilePhoto from "../assets/profile-image.jpg";
 import phoneIcon from "../assets/phoneIcon.png";
 import linkIcon from "../assets/linkIcon.png";
 import emailIcon from "../assets/emailIcon.png";
+import dh from "../assets/dh.png";
 
 function Navbar({ setCurrentPage }) {
   return (
@@ -22,7 +23,7 @@ function Navbar({ setCurrentPage }) {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span className="navbar-toggler-icon"></span>
+            <img src={dh} alt="David Healy, DH logo." width="30" height="30" />
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
@@ -33,6 +34,7 @@ function Navbar({ setCurrentPage }) {
                   }}
                   className="nav-link active"
                   aria-current="page"
+                  href="#"
                 >
                   Home
                 </a>
