@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/davidhealy.info/static/css/main.67f91f8d.css",
-    "main.js": "/davidhealy.info/static/js/main.b9fb2465.js",
-    "static/js/787.e022615a.chunk.js": "/davidhealy.info/static/js/787.e022615a.chunk.js",
-    "static/media/pourLosers.png": "/davidhealy.info/static/media/pourLosers.421c135b6c62b782b3d9.png",
-    "static/media/weatherDashboard.png": "/davidhealy.info/static/media/weatherDashboard.e2160f27ae77abb7f5da.png",
-    "static/media/smokedRibEye.jpg": "/davidhealy.info/static/media/smokedRibEye.2357e72653d0cbd0b11d.jpg",
-    "static/media/profile-image.jpg": "/davidhealy.info/static/media/profile-image.84f3b1347e5b6afa23a0.jpg",
-    "static/media/originalPortfolio.png": "/davidhealy.info/static/media/originalPortfolio.497c62816ae36e3ca663.png",
-    "static/media/bikePark.jpg": "/davidhealy.info/static/media/bikePark.df3421120f2201d3d23a.jpg",
-    "static/media/David_Healy_Resume.pdf": "/davidhealy.info/static/media/David_Healy_Resume.fe53b6a765e8a4eb82c1.pdf",
-    "static/media/fiveCK.png": "/davidhealy.info/static/media/fiveCK.56b54e428f2911f8c617.png",
-    "static/media/huntingPhoto.jpg": "/davidhealy.info/static/media/huntingPhoto.b75cfe66749bda565af2.jpg",
-    "static/media/jate.png": "/davidhealy.info/static/media/jate.fdc5bfa33e01431b7bcb.png",
-    "static/media/regexExplanation.png": "/davidhealy.info/static/media/regexExplanation.3d2aa182e7b30e877b69.png",
-    "static/media/socialMediaApi.png": "/davidhealy.info/static/media/socialMediaApi.162db10c78b27709744e.png",
-    "static/media/passwordGen.png": "/davidhealy.info/static/media/passwordGen.aa25cbf89939def02f6b.png",
-    "index.html": "/davidhealy.info/index.html",
-    "main.67f91f8d.css.map": "/davidhealy.info/static/css/main.67f91f8d.css.map",
-    "main.b9fb2465.js.map": "/davidhealy.info/static/js/main.b9fb2465.js.map",
-    "787.e022615a.chunk.js.map": "/davidhealy.info/static/js/787.e022615a.chunk.js.map"
+    "main.css": "/davidhealyinfo/static/css/main.67f91f8d.css",
+    "main.js": "/davidhealyinfo/static/js/main.e3f29ff5.js",
+    "static/js/787.e022615a.chunk.js": "/davidhealyinfo/static/js/787.e022615a.chunk.js",
+    "static/media/pourLosers.png": "/davidhealyinfo/static/media/pourLosers.421c135b6c62b782b3d9.png",
+    "static/media/weatherDashboard.png": "/davidhealyinfo/static/media/weatherDashboard.e2160f27ae77abb7f5da.png",
+    "static/media/smokedRibEye.jpg": "/davidhealyinfo/static/media/smokedRibEye.2357e72653d0cbd0b11d.jpg",
+    "static/media/profile-image.jpg": "/davidhealyinfo/static/media/profile-image.84f3b1347e5b6afa23a0.jpg",
+    "static/media/originalPortfolio.png": "/davidhealyinfo/static/media/originalPortfolio.497c62816ae36e3ca663.png",
+    "static/media/bikePark.jpg": "/davidhealyinfo/static/media/bikePark.df3421120f2201d3d23a.jpg",
+    "static/media/David_Healy_Resume.pdf": "/davidhealyinfo/static/media/David_Healy_Resume.fe53b6a765e8a4eb82c1.pdf",
+    "static/media/fiveCK.png": "/davidhealyinfo/static/media/fiveCK.56b54e428f2911f8c617.png",
+    "static/media/huntingPhoto.jpg": "/davidhealyinfo/static/media/huntingPhoto.b75cfe66749bda565af2.jpg",
+    "static/media/jate.png": "/davidhealyinfo/static/media/jate.fdc5bfa33e01431b7bcb.png",
+    "static/media/regexExplanation.png": "/davidhealyinfo/static/media/regexExplanation.3d2aa182e7b30e877b69.png",
+    "static/media/socialMediaApi.png": "/davidhealyinfo/static/media/socialMediaApi.162db10c78b27709744e.png",
+    "static/media/passwordGen.png": "/davidhealyinfo/static/media/passwordGen.aa25cbf89939def02f6b.png",
+    "index.html": "/davidhealyinfo/index.html",
+    "main.67f91f8d.css.map": "/davidhealyinfo/static/css/main.67f91f8d.css.map",
+    "main.e3f29ff5.js.map": "/davidhealyinfo/static/js/main.e3f29ff5.js.map",
+    "787.e022615a.chunk.js.map": "/davidhealyinfo/static/js/787.e022615a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.67f91f8d.css",
-    "static/js/main.b9fb2465.js"
+    "static/js/main.e3f29ff5.js"
   ]
 }
