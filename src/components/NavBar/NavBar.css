@@ -1,0 +1,54 @@
+.imageInfo {
+    position: relative;
+    font-size: 14px;
+    background-color: #F8F8F8;
+    margin-top: 0px;
+    min-width: 370px;
+    float: right;
+    border-radius: 100px 6px 6px 100px;
+    box-shadow: -14px 21px 22px rgba(0, 0, 0, 0.3)  ; 
+    -webkit-box-shadow: -14px 21px 22px rgba(0, 0, 0, 0.3)  ; 
+    -moz-box-shadow: -14px 21px 22px rgba(0, 0, 0, 0.3)  ; 
+  
+  }
+  .proPhoto {
+    position: flex;
+    justify-content: end;
+    margin-right: 0px;
+    margin-left: px;
+    margin-bottom: px;
+    max-height: 200px;
+    max-width: auto;
+  background: #F8F8F8; 
+  border: solid #BDBDBD 0; 
+  }
+  
+  .codeWarsBadge {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: -5px;
+    max-width: 100%;
+    text-align: left;
+  }
+  
+  .infoBadge{
+    text-align: left;
+    position:absolute;
+    bottom: 0;
+    margin-left: 200px;
+  }
+  
+  .infoBadgeIcons {
+    max-width: 11px;
+  }
+  
+  .icons {
+    position: relative;
+    max-height: 50px;
+  }
+
+  .name {
+    margin-bottom: -7px;
+    margin-left: -3px;
+  }
+  

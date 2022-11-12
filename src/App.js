@@ -1,10 +1,10 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/NavBar/Navbar";
 import HomePage from "./components/HomePage";
 import Bio from "./components/Bio/Bio";
 import Contact from "./components/Contact";
-import MyWork from "./components/MyWork";
+import MyWork from "./components/MyWork/MyWork";
 import Resume from "./components/Resume/Resume";
 import Footer from "./components/Footer/Footer";
 import { useState } from "react";
